@@ -45,14 +45,14 @@ ex) union(1, 4) 과 union(5, 6) 수행 결과
 ## 4. Code
 ```python
 # union(x, y)
-def union(x,y):
-    a = find(a)
-    b = find(b)
+def union(x, y):
+    x = find(x)
+    y = find(y)
 
-    if a < b :
-        parent[b] = a
+    if x < y:
+        parent[y] = x
     else:
-        parent[a] = b
+        parent[x] = y
 
 # find(x)
 def find(x):
@@ -82,4 +82,5 @@ for i in range(1, vertex + 1):
     print(parent[i], end = '')
 ```
 
-### 5. 문제
+## 5. 문제
+- [BOJ-1717](./ex_BOJ/1717/)
