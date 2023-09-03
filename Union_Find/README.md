@@ -81,3 +81,5 @@ print('\n부모 테이블: ', end = '')
 for i in range(1, vertex + 1):
     print(parent[i], end = '')
 ```
+
+### 5. 문제
