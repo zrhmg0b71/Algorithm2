@@ -84,3 +84,4 @@ for i in range(1, vertex + 1):
 
 ## 5. 문제
 - [BOJ-1717](./ex_BOJ/1717/)
+- [BOJ-1976](./ex_BOJ/1976/)
