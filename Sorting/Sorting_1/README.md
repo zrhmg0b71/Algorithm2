@@ -80,7 +80,7 @@ def insertionSort(a):
 ### 정리
 - 순서를 바꾸어야 할 원소 쌍이 N에 비례한 개수 이하라면 ~N회 작업이 필요한 Insertion Sort가 다른 Sorting 보다 유리함 → Partially ordered 된 상태
 
-# 임의의 데이터 타입 정렬 시 유의 사항
+## 임의의 데이터 타입 정렬 시 유의 사항
 - 대소 관계가 명확하지 않은 객체 정렬 시 대소 관계 비교에 필요한 대소 관계를 규칙에 따라 잘 정의해야 함
 ## 대소 관계 정의 시 지켜야 할 규칙 (Total Order)
 - Anti-symmetry : if a <= b and b <= a, then a == b
@@ -120,7 +120,7 @@ def hInsertionSort(a, h):
 : 여러 칸 (h > 1) 떨어진 원소끼리만 비교해서 비교 & swap 횟수 적음
 : h = 1일 때 Insertion Sort와 같지만 이전의 h-sort들에 의해 거의 정렬된 상태이므로 (Inversion 수가 ~N에 가까이 줄어든 상태) ~N에 가까운 비교 & swap만으로 완료
 
-## 3. h-sort으ㅣ h 값 선정 방법
+## 3. h-sort의 h 값 선정 방법
 - 조건 : h를 어떤 방식으로 선택하더라도 최종적으로 h = 1 해서 완전히 정렬된 상태로 만들어야 함.
 - Donald Knuth 방법 : k = 3x + 1    (계산이 쉬움 + 성능↑ ⇒ 가장 많이 사용)
 
@@ -240,3 +240,12 @@ if __name__ == "__main__":
     print(ccw((0, 0), (-2, -1), (-1, 1)))
     print(ccw((0, 0), (-1, 1), (-2, 2)))  # Straight line
 ```
+
+---
+## 학교 수업 실습 및 과제 코드
+- [Selection Sort](./School_Code/SelectionSort.py)
+- [Insertion Sort](./School_Code/InsertionSort.py)
+- [h-Sort](./School_Code/HSort.py)
+- [Shuffle Sort](./School_Code/ShuffleSort.py)
+- [Knuth Shuffle](./School_Code/KnuthShuffle.py)
+- [Convex Hull](./School_Code/ConvexHull.py)
