@@ -14,4 +14,5 @@ def selectionSort(a):
 if __name__ == "__main__":
     print(selectionSort([5,1,3,2]))
     print(selectionSort(["b", "f", "z", "d", "i", "k", "p", "v"]))
+    #print(selectionSort(["A1", "B1", "B2", "A2"]))
     #selectionSort([7,2,4,1,9,0])
